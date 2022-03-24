@@ -17,6 +17,8 @@ let mixerPortfolio = mixitup('.work__container',{
     }
 });
 
+const works = document.getElementsByClassName('work__card').length
+document.getElementById('projects').innerHTML = works + "+ Proyectos"
 /*link Active Work*/
 const linkWork = document.querySelectorAll('.work__item')
 
